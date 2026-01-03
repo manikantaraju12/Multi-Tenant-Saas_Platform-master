@@ -48,14 +48,14 @@ From the project root directory, run:
 ```bash
 docker-compose up -d
 
-## 🔍 Verify Backend Health
+### 🔍 Verify Backend Health
 
 After starting the services, verify that the backend is running correctly:
 
 ```bash
 curl http://localhost:5000/api/health
 
-## 🌐 Access the Application
+### 🌐 Access the Application
 
 - **Web UI:** http://localhost:3000
 
@@ -63,7 +63,7 @@ curl http://localhost:5000/api/health
 > Database schema creation and seed data are handled automatically on application startup.
 
 
-## 🌐 Service Endpoints
+### 🌐 Service Endpoints
 
 | Service       | URL                              |
 |--------------|----------------------------------|
@@ -71,7 +71,7 @@ curl http://localhost:5000/api/health
 | Backend API  | http://localhost:5000            |
 | Health Check | http://localhost:5000/api/health |
 
-## 🔐 Preloaded Evaluation Credentials
+### 🔐 Preloaded Evaluation Credentials
 
 ### Tenant Administrator
 
@@ -81,7 +81,7 @@ curl http://localhost:5000/api/health
 
 > These credentials are also documented in `submission.json`.
 
-## 🔑 Login Instructions
+### 🔑 Login Instructions
 
 1. Navigate to: **http://localhost:3000/login**
 2. Enter the provided credentials
@@ -96,7 +96,7 @@ With this account, you can:
 
 ---
 
-## 🔒 Authentication & Authorization Model
+### 🔒 Authentication & Authorization Model
 
 | Role          | Permissions                               |
 |--------------|--------------------------------------------|
@@ -106,7 +106,7 @@ With this account, you can:
 
 Each tenant operates in **complete isolation** from all other tenants.
 
-## 🐳 Dockerized Services & Ports
+### 🐳 Dockerized Services & Ports
 
 | Service   | Description               | Port Mapping |
 |----------|---------------------------|--------------|
@@ -116,7 +116,7 @@ Each tenant operates in **complete isolation** from all other tenants.
 
 ---
 
-## 📂 Project Structure
+### 📂 Project Structure
 
 ```text
 backend/
@@ -129,7 +129,7 @@ frontend/
 
 docker-compose.yml   # Service orchestration
 
-## ✅ Application Validation Checklist
+### ✅ Application Validation Checklist
 
 After launching the application:
 
@@ -142,7 +142,7 @@ After launching the application:
 
 ---
 
-## 🎥 Demonstration Video
+### 🎥 Demonstration Video
 
 The demo walkthrough includes:
 - System architecture overview
@@ -154,7 +154,7 @@ The demo walkthrough includes:
 
 ---
 
-## 🧑‍🏫 Information for Evaluators
+### 🧑‍🏫 Information for Evaluators
 
 - Fully containerized SaaS implementation
 - Single-command startup using Docker Compose
